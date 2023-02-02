@@ -19,7 +19,7 @@
   <modules>
     <module>server</module>
     <module>webapp</module>
-    <version>1.0.2</version>
+   
   </modules>
 
   <distributionManagement>
