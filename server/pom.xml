@@ -44,11 +44,4 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <distributionManagement>
-    <site>
-      <id>nexus</id>
-      <name>Releases</name>
-      <url>http://192.168.43.84:8081/nexus/content/repositories/releases</url>
-    </site>
-  </distributionManagement>
 </project>
