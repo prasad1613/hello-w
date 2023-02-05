@@ -41,18 +41,4 @@
       <scope>provided</scope>
     </dependency>
   </dependencies>
-  <distributionManagement>
-    <repository>
-      <id>nexus</id>
-      <name>Releases</name>
-      <url>http://192.168.43.84:8081/nexus/content/repositories/releases/</url>
-      <layout>default</layout>
-    </repository>
-   <!-- <snapshotRepository>
-      <id>nexus</id>
-      <name>Snapshot</name>
-      <url>http://192.168.43.84:8081/nexus/content/repositories/releases/</url>
-      <layout>default</layout>
-    </snapshotRepository> -->
-  </distributionManagement>
 </project>
