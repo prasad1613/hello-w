@@ -23,11 +23,16 @@
   </modules>
 
   <distributionManagement>
-    <site>
+    <repository>
       <id>nexus</id>
       <name>Releases</name>
-      <url>http://192.168.43.84:8081/nexus/content/repositories/releases</url>
-    </site>
+      <url>http://192.168.43.84:8081/nexus/content/repositories/releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>Snapshot</name>
+      <url>http://192.168.43.84:8081/nexus/content/repositories/releases/</url>
+    </snapshotRepository>
   </distributionManagement>
 
   <build>
