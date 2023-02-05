@@ -44,7 +44,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-         <distributionManagement>
+ <distributionManagement>
     <repository>
       <id>nexus</id>
       <name>com.siva</name>
